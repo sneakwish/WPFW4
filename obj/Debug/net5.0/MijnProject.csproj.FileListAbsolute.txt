@@ -1,0 +1,16 @@
+C:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\MijnProject.csproj.AssemblyReference.cache
+C:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\MijnProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\MijnProject.AssemblyInfoInputs.cache
+C:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\MijnProject.AssemblyInfo.cs
+C:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\MijnProject.csproj.CoreCompileInputs.cache
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\bin\Debug\net5.0\MijnProject.exe
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\bin\Debug\net5.0\MijnProject.deps.json
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\bin\Debug\net5.0\MijnProject.runtimeconfig.json
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\bin\Debug\net5.0\MijnProject.runtimeconfig.dev.json
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\bin\Debug\net5.0\MijnProject.dll
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\bin\Debug\net5.0\ref\MijnProject.dll
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\bin\Debug\net5.0\MijnProject.pdb
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\MijnProject.dll
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\ref\MijnProject.dll
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\MijnProject.pdb
+c:\Users\wisha\Documents\VScodeprojects\wpfwopdracht4\obj\Debug\net5.0\MijnProject.genruntimeconfig.cache
