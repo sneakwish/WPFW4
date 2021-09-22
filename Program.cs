@@ -51,17 +51,22 @@ public class Student
 
     static void Opdracht1() // Toon van alle studenten de naam en het geboortejaar, gesorteerd het geboortejaar.
     {
+        Console.WriteLine("Opdracht 1");
+
+        int laagste = 0;
         foreach (Student student in Studenten)
         {
-            // Console.WriteLine("{0} - {1}", student.Naam, student.Geboortejaar);
 
-            int maxgeboorte = student.Geboortejaar;
-            if(maxgeboorte <student.Geboortejaar){
-                maxgeboorte = student.Geboortejaar;
+            if(laagste <student.Geboortejaar){
+                laagste = student.Geboortejaar;
             }
-            Console.WriteLine("{0} - {1}", student.Naam, maxgeboorte);
+            Console.WriteLine("{0} - {1}", student.Naam, laagste);
 
         }
+        foreach(Student student2 in Studenten){
+                Console.WriteLine("{0} - {1}", student2.Naam, laagste);
+
+            }
     }
 
     static void Opdracht2() // In welk jaar is de jongste student geboren in klas 2A?

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\wisha\\Documents\\VScodeprojects\\wpfwopdracht4\\MijnProject.csproj": {}
+    "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\MijnProject.csproj": {}
   },
   "projects": {
-    "c:\\Users\\wisha\\Documents\\VScodeprojects\\wpfwopdracht4\\MijnProject.csproj": {
+    "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\MijnProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\wisha\\Documents\\VScodeprojects\\wpfwopdracht4\\MijnProject.csproj",
+        "projectUniqueName": "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\MijnProject.csproj",
         "projectName": "MijnProject",
-        "projectPath": "c:\\Users\\wisha\\Documents\\VScodeprojects\\wpfwopdracht4\\MijnProject.csproj",
+        "projectPath": "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\MijnProject.csproj",
         "packagesPath": "C:\\Users\\wisha\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\wisha\\Documents\\VScodeprojects\\wpfwopdracht4\\obj\\",
+        "outputPath": "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wisha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -19,6 +19,9 @@
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
@@ -49,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
