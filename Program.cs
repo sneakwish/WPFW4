@@ -41,43 +41,34 @@ public class Student
 
     public static void Opdrachten()
     {
-        Opdracht1();
+        // Opdracht1();
         Opdracht2();
-        Opdracht3();
-        Opdracht4();
-        Opdracht5();
-        Opdracht6();
+        // Opdracht3();
+        // Opdracht4();
+        // Opdracht5();
+        // Opdracht6();
     }
 
     static void Opdracht1() // Toon van alle studenten de naam en het geboortejaar, gesorteerd het geboortejaar.
     {
         Console.WriteLine("Opdracht 1");
 
-        int laagste = 0;
-        foreach (Student student in Studenten)
+        foreach (Student s in Studenten.OrderBy(s => s.Geboortejaar))
         {
-
-            if(laagste <student.Geboortejaar){
-                laagste = student.Geboortejaar;
-            }
-            Console.WriteLine("{0} - {1}", student.Naam, laagste);
-
+            Console.WriteLine("{0} - {1}", s.Naam, s.Geboortejaar);
         }
-        foreach(Student student2 in Studenten){
-                Console.WriteLine("{0} - {1}", student2.Naam, laagste);
-
-            }
     }
 
     static void Opdracht2() // In welk jaar is de jongste student geboren in klas 2A?
     {
-        Console.WriteLine(Studenten.Where(Student => Student.Klas = "2A").Order(Student=>Student.geboortejaar).Last());
+        Console.WriteLine("Opdracht 2");
+        Console.WriteLine(Studenten.Where(Student => Student.Klas == "2A").OrderBy(Student=>Student.Geboortejaar).Last());
     }
 
     static void Opdracht3() // Hoeveel vrouwen zitten er in klas 1A?
     {
         Student s;
-        Console.WriteLine(Studenten.Where(s => s.Geslacht = "Vrouw") &&Where.);
+        // Console.WriteLine(Studenten.Where(s => s.Geslacht = "Vrouw") &&Where.);
     }
 
     static void Opdracht4() // Toon de 6e t/m 10e student uit de lijst.
@@ -248,9 +239,9 @@ public static class LosseOpgaven
             new DateTime(2021, 3, 4, 16, 55, 48),
             new DateTime(2021, 3, 4, 22, 40, 12)
         };
-        int totaalAantalSecondenAan = tijden.Aggregate(new AggregateHelper(), (async,volgend)=> {
+        // int totaalAantalSecondenAan = tijden.Aggregate(new AggregateHelper(), (async,volgend)=> {
 
-        });
+        // });
     }
 
     static void Opdracht5() // Omdat lambda expressies variabelen kunnen capturen van buiten de lambda expressie, is het mogelijk om te tellen met een ForEach. Zonder uitvoeren van de code, wat denk je dat er wordt geprint? Waarom? Is jouw antwoord hetzelfde als de Select wordt vervangen door ForEach?
