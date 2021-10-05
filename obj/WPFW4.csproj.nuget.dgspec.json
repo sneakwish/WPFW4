@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\MijnProject.csproj": {}
+    "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\WPFW4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\MijnProject.csproj": {
+    "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\WPFW4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\MijnProject.csproj",
-        "projectName": "MijnProject",
-        "projectPath": "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\MijnProject.csproj",
+        "projectUniqueName": "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\WPFW4.csproj",
+        "projectName": "WPFW4",
+        "projectPath": "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\WPFW4.csproj",
         "packagesPath": "C:\\Users\\wisha\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\wisha\\Documents\\VSCodeShit\\WPFW3\\WPFW4\\WPFW4\\obj\\",
         "projectStyle": "PackageReference",

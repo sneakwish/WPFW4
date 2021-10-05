@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "MijnProject/1.0.0": {
+      "WPFW4/1.0.0": {
         "runtime": {
-          "MijnProject.dll": {}
+          "WPFW4.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "MijnProject/1.0.0": {
+    "WPFW4/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

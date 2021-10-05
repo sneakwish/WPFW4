@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = MijnProject
+build_property.RootNamespace = WPFW4
 build_property.ProjectDir = c:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\

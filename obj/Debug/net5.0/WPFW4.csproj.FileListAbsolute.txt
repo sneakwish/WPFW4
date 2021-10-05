@@ -1,0 +1,16 @@
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\bin\Debug\net5.0\WPFW4.exe
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\bin\Debug\net5.0\WPFW4.deps.json
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\bin\Debug\net5.0\WPFW4.runtimeconfig.json
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\bin\Debug\net5.0\WPFW4.runtimeconfig.dev.json
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\bin\Debug\net5.0\WPFW4.dll
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\bin\Debug\net5.0\ref\WPFW4.dll
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\bin\Debug\net5.0\WPFW4.pdb
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\WPFW4.csproj.AssemblyReference.cache
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\WPFW4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\WPFW4.AssemblyInfoInputs.cache
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\WPFW4.AssemblyInfo.cs
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\WPFW4.csproj.CoreCompileInputs.cache
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\WPFW4.dll
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\ref\WPFW4.dll
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\WPFW4.pdb
+C:\Users\wisha\Documents\VSCodeShit\WPFW3\WPFW4\WPFW4\obj\Debug\net5.0\WPFW4.genruntimeconfig.cache

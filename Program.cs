@@ -42,16 +42,17 @@ public class Student
     public static void Opdrachten()
     {
         // Opdracht1();
-        Opdracht2();
+        // Opdracht2();
         // Opdracht3();
         // Opdracht4();
         // Opdracht5();
         // Opdracht6();
+        // OpdrachtExtra();
     }
 
     static void Opdracht1() // Toon van alle studenten de naam en het geboortejaar, gesorteerd het geboortejaar.
     {
-        Console.WriteLine("Opdracht 1");
+        Console.WriteLine("Student Opdracht 1");
 
         foreach (Student s in Studenten.OrderBy(s => s.Geboortejaar))
         {
@@ -61,37 +62,61 @@ public class Student
 
     static void Opdracht2() // In welk jaar is de jongste student geboren in klas 2A?
     {
-        Console.WriteLine("Opdracht 2");
-        Console.WriteLine(Studenten.Where(Student => Student.Klas == "2A").OrderBy(Student=>Student.Geboortejaar).Last());
+        Console.WriteLine("Student Opdracht 2");
+
+        var jongste = "";
+        var res = Studenten.Where(Student=>Student.Klas == "2A").OrderBy(s=>s.Geboortejaar);
+        foreach (Student s in res)
+            jongste = s.Naam;
+
+        Console.WriteLine(Studenten.Where(s=>s.Klas == "2A").OrderBy(s=>s.Geboortejaar).Last().Geboortejaar);
+
+        Console.WriteLine(jongste);
     }
 
     static void Opdracht3() // Hoeveel vrouwen zitten er in klas 1A?
     {
-        Student s;
-        // Console.WriteLine(Studenten.Where(s => s.Geslacht = "Vrouw") &&Where.);
+        Console.WriteLine("Student Opdracht 3");
+
+        var yo = Studenten.Where(s => s.Klas == "1A").Where(s => s.Geslacht =="Vrouw").Count();
+        Console.WriteLine(yo);
     }
 
     static void Opdracht4() // Toon de 6e t/m 10e student uit de lijst.
     {
-        // foreach (Student student in Studenten...)
-        // {
-        //     Console.WriteLine(student.Naam);
-        // }
+        Console.WriteLine("Student Opdracht 4");
+
+        foreach (Student student in Studenten.Skip(5).Take(5))
+        {
+            Console.WriteLine(student.Naam);
+        }
     }
 
     static void Opdracht5() // Is er een student uit 1997 (True/False)?
     {
-        // Console.WriteLine(Studenten... .Contains(1997));
+        Console.WriteLine("Student Opdracht 5");
+        Console.WriteLine(Studenten.Any(s=>s.Geboortejaar == 1997));
     }
 
     static void Opdracht6() // In welke klas zit Joep?
     {
-        Console.WriteLine(Studenten.Where(s => s.Naam == "Joep").Single().Klas);
+        Console.WriteLine("Student Opdracht 6");
+
+        Console.WriteLine(Studenten
+        .Where(s => s.Naam == "Joep")
+        .Single().Klas);
     }
 
     static void OpdrachtExtra()//In welke klassen zitten tenminste 2 studenten?
     {
-        Studenten.GroupBy(Student=>Student.Klas).Where(g=>g.Count()>1);
+        Console.WriteLine("Student Opdracht extra");
+
+        var yo = Studenten.GroupBy(Student=>Student.Klas).Where(s=>s.Count()>1);
+        Console.WriteLine(yo);
+        var lijst = yo.ToList();
+        // foreach(Student s in Studenten.GroupBy(s=>s.Klas).Where(s=>s.Klas == "1A")){
+        //     Console.WriteLine(s.Klas);
+        }
     }
 }
 
@@ -145,17 +170,17 @@ public class Bezoek
 
     public static void Opdrachten()
     {
-        Opdracht1();
-        Opdracht2();
-        Opdracht3();
-        Opdracht4();
-        Opdracht5();
-        Opdracht6();
+        // Opdracht1();
+        // Opdracht2();
+        // Opdracht3();
+        // Opdracht4();
+        // Opdracht5();
+        // Opdracht6();
     }
 
     static void Opdracht1() // Hoe vaak hebben de studenten in totaal doorgeklikt?.
     {
-        // Console.WriteLine(bezoekjes...);
+        Console.WriteLine(bezoekjes...);
     }
 
     static void Opdracht2() // We willen in een console een lijst te zien krijgen van bezoekjes korter dan 1 minuut. Gebruik de ToString in Bezoek. Tip: gebruik Where, ToList en daarna ForEach. Waarom bestaat ForEach niet in LINQ?
@@ -191,11 +216,11 @@ public static class LosseOpgaven
 {
     public static void Opdrachten()
     {
-        Opdracht1();
-        Opdracht2();
-        Opdracht3();
-        Opdracht4();
-        Opdracht5();
+        // Opdracht1();
+        // Opdracht2();
+        // Opdracht3();
+        // Opdracht4();
+        // Opdracht5();
     }
 
     static void Opdracht1() // De gebruiker voert een zin in, en die zin wordt vervolgens opgesplitst in woorden. Bedenk welke LINQ er op de plaats van de puntjes terecht moet komen om de oorspronkelijke zin weer terug te krijgen. 
