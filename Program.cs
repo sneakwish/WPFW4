@@ -47,7 +47,7 @@ public class Student
         // Opdracht4();
         // Opdracht5();
         // Opdracht6();
-        // OpdrachtExtra();
+        //done
     }
 
     static void Opdracht1() // Toon van alle studenten de naam en het geboortejaar, gesorteerd het geboortejaar.
@@ -104,20 +104,9 @@ public class Student
 
         Console.WriteLine(Studenten
         .Where(s => s.Naam == "Joep")
-        .Single().Klas);
+        .Single().Naam);
     }
 
-    static void OpdrachtExtra()//In welke klassen zitten tenminste 2 studenten?
-    {
-        Console.WriteLine("Student Opdracht extra");
-
-        var yo = Studenten.GroupBy(Student=>Student.Klas).Where(s=>s.Count()>1);
-        Console.WriteLine(yo);
-        var lijst = yo.ToList();
-        // foreach(Student s in Studenten.GroupBy(s=>s.Klas).Where(s=>s.Klas == "1A")){
-        //     Console.WriteLine(s.Klas);
-        }
-    }
 }
 
 public class BlackBoardPagina
@@ -170,7 +159,7 @@ public class Bezoek
 
     public static void Opdrachten()
     {
-        // Opdracht1();
+        Opdracht1();
         // Opdracht2();
         // Opdracht3();
         // Opdracht4();
@@ -180,7 +169,7 @@ public class Bezoek
 
     static void Opdracht1() // Hoe vaak hebben de studenten in totaal doorgeklikt?.
     {
-        Console.WriteLine(bezoekjes...);
+      System.Console.WriteLine()
     }
 
     static void Opdracht2() // We willen in een console een lijst te zien krijgen van bezoekjes korter dan 1 minuut. Gebruik de ToString in Bezoek. Tip: gebruik Where, ToList en daarna ForEach. Waarom bestaat ForEach niet in LINQ?
